@@ -202,6 +202,382 @@ nav ul li:nth-child(3){
 }
 
 #couverture {
+    background-image: url(images/headerbackgroundsmall.jpg);
+    background-repeat: no-repeat;
+    /*height: 478px;*/
+    height: 29em;
+    width: 100%;
+    background-position: center;
+}
+
+#cadre {
+clear: both;
+    background-color: #fff;
+    background-image: url(images/fondstrie.png);
+    background-repeat: no-repeat;
+    background-size: 350%;
+    font-family: nexa_lightregular; Verdana, Arial;
+    /*width: 490px;
+    height: 376px;*/
+    width: 100%;
+    height: 24em;
+    margin-top: 0.8em;
+    border-bottom-left-radius: 0.9em;
+    border-bottom-right-radius: 2em;
+    -webkit-border-bottom-left-radius: 0.9em;
+    -webkit-border-bottom-right-radius: 2em;
+    -moz-border-bottom-left-radius: 0.9em;
+    -moz-border-bottom-right-radius: 2em;
+    -o-border-bottom-left-radius: 0.9em;
+    -o-border-bottom-right-radius: 2em;
+}
+
+h1 {
+    font-family: 'nexa_boldregular', Verdana, Arial;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #a35b6f;
+    height: 0.2em;
+    margin-top: 0.3em;
+}
+
+p {
+    margin-top: 0.01em;
+}
+
+h2 {
+    margin-left: 0.1em;
+    margin-right: 0.3em;
+    text-transform: uppercase;
+    color: #7292b4;
+    text-align: center;
+}
+
+aside {
+    width: 980px;
+    height: 378px;
+    background : transparent;
+    margin: 0 auto;
+    font-family: 'nexa_lightregular', Arial;
+}
+
+aside article {
+    width: 22%;
+    height :25em;
+    /*width: 270px;
+    height :378px;*/
+    background-color: #fff;
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    text-align: justify;
+    display: block;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    -webkit-border-top-left-radius: 0.8em;
+    -webkit-border-top-right-radius: 0.8em;
+    -moz-border-top-left-radius: 0.8em;
+    -moz-border-top-right-radius: 0.8em;
+    -o-border-top-left-radius: 0.8em;
+    -o-border-top-right-radius: 0.8em;
+    box-shadow: 0.3em 0em 0.3em 0.01em #7292b4; /* ombre sur box : direction, hauteur, largeur, couleur;*/
+    font-family: Arial;
+}
+
+div#vinyle {
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
+    background-image: url(pictos/vinyle.svg);
+    background-repeat: no-repeat;
+    margin:0 auto;
+    background-size: 300%;
+}
+
+aside article:first-child {
+    background: rgb(212,181,190); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(212,181,190,1) 0%, rgba(243,233,236,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(212,181,190,1)), color-stop(100%,rgba(243,233,236,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(212,181,190,1) 0%,rgba(243,233,236,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(212,181,190,1) 0%,rgba(243,233,236,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(212,181,190,1) 0%,rgba(243,233,236,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(212,181,190,1) 0%,rgba(243,233,236,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4b5be', endColorstr='#f3e9ec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+div#enceinte {
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
+    background-image: url(pictos/enceinte.svg);
+    background-repeat: no-repeat;
+    background-size: 290%;
+    margin: 0 auto,
+}
+
+div#facette {
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
+    background-image: url(pictos/facette.png);
+    background-repeat: no-repeat;
+    margin:0 auto;
+    background-position: center;
+    background-size: 85%;
+}
+
+h3 {
+    font-family: 'nexa_boldregular', Verdana, Arial;
+    text-transform: uppercase;
+    color: #7292b4;
+    font-size: 2em;
+    padding-top: 0.4em;
+    padding-left: 0.1em;
+}
+
+h4{
+    font-family: 'nexa_boldregular', Verdana, Arial;
+    color:#a35c6f;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+
+section#gestion {
+    clear:both;
+/*    width: 980px;
+    height: 564px;*/
+    width: 100%;
+    height: 37em;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/fondstrie.png);
+    background-repeat: repeat-x;
+    background-position: top-right;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    -webkit-border-bottom-left-radius: 1.2em;
+    -webkit-border-bottom-right-radius: 1.2em;
+    -moz-border-bottom-left-radius: 1.2em;
+    -moz-border-bottom-right-radius: 1.2em;
+    -o-border-bottom-left-radius: 1.2em;
+    -o-border-bottom-right-radius: 1.2em;
+}
+
+section#gestion article.content {
+    width: 47%;
+    height: 33em;
+/*    width: 460px;
+    height: 564px;*/
+    float: left;
+    margin-left: 1.5%;
+    display: block;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+section#gestion article.content p {
+    font-family: 'nexa_lightregular', Verdana, Arial;
+    text-align: justify;
+    font-size: 0.90em;
+    line-height: 1.3em;
+    margin-top: 2em;
+    margin-left: 0.5em;
+}
+
+img.left {
+    float: left;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    width: 5.1em;
+    height: 5.1em;
+}
+
+img.right {
+    float: right;
+    width: 7.8em;
+    height: 7.8em;
+    padding-left: 0.5em;
+}
+
+img.corner{
+    margin-top: 8%;
+}    
+
+
+div#guitare{
+/*    width: 200px;
+    height: 200px;*/
+    width: 10em;
+    height: 10em;
+    background-size: 102%;
+    background-image: url(images/mecguitare.png);
+    float: left;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    margin-right: 3%;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    -webkit-border-bottom-left-radius: 1.2em;
+    -webkit-border-bottom-right-radius: 1.2em;
+    -moz-border-bottom-left-radius: 1.2em;
+    -moz-border-bottom-right-radius: 1.2em;
+    -o-border-bottom-left-radius: 1.2em;
+    -o-border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    -webkit-border-top-left-radius: 1.2em;
+    -webkit-border-top-right-radius: 1.2em;
+    -moz-border-top-left-radius: 1.2em;
+    -moz-border-top-right-radius: 1.2em;
+    -o-border-top-left-radius: 1.2em;
+    -o-border-top-right-radius: 1.2em;
+    box-shadow: 0.3em 0em 0.3em 0.01em #7292b4;
+    -webkit-box-shadow: 0.3em 0em 0.3em 0.01em #7292b4;
+    -moz-box-shadow: 0.3em 0em 0.3em 0.01em #7292b4;
+}
+
+section#gestion article.content p span{
+    padding-top: 20%;
+    font-weight: bold;
+}
+
+section#gestion article.content ul{
+    list-style-image: url(pictos/puce.gif);
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'nexa_lightregular', Verdana, Arial;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+footer{
+    background-color: #313131;
+    clear: both;
+    display: fixed;
+    margin: 0 auto;
+    /*width: 980px;
+    height: 146px;*/
+    width: 100%;
+    height: 8.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    -webkit-border-top-left-radius: 1.2em;
+    -webkit-border-top-right-radius: 1.2em;
+    -moz-border-top-left-radius: 1.2em;
+    -moz-border-top-right-radius: 1.2em;
+    -o-border-top-left-radius: 1.2em;
+    -o-border-top-right-radius: 1.2em;
+}
+
+footer ul{
+    list-style: none;
+    display: inline-block;
+    font-family: 'nexa_lightregular', Verdana, Arial;
+    margin-top: 5%;
+    margin-left: 7%;
+    color: #fff;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+footer ul li:first-child{
+    color: #29506e;
+    font-family: 'nilland-extraboldregular';
+    font-weight: bold;
+}
+
+footer span{
+    font-family: 'nexa_lightregular';
+    font-size: 0.7em;
+    display: block;
+    color:#fff;
+    padding-left: 35%;
+}
+
+@media screen and (max-width: 600px){
+body {
+    background-color:#d9f3fc;
+}
+
+header {
+    margin: 0 auto;
+    height: 6.625em;
+    width: 100%;
+}
+
+div#logo {
+    /*width : 290px
+    height : 100px*/
+    width: 30%;
+    height: 7em;
+    margin-left: 0.05em;
+    background-image: url(images/logo.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+nav ul {
+    font-family: 'nexa_boldregular', Verdana, Tahoma, Arial;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color:#7292b4;
+}
+
+nav ul li a:hover {
+    font-size: 0.95em;
+    color: #a35b6f;
+}
+
+nav ul:active {
+
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #282828;
+}
+
+nav ul li {
+    font-size: 0.8em;
+    width: 16%;
+    display: inline-block; /** Mettre les li sur une ligne **/
+    text-align: center;
+    margin-top: 3.2em;
+    border-left-width: 1px;
+    border-left-color: #adadad ;
+    border-left-style: solid;
+}
+
+nav ul li:last-child {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #adadad;
+} /*last child s'utilise pour toutes les dernières balises*/
+
+nav ul li a {
+    text-decoration: none; /** Pour enlever le soulignement des liens !Attention! Bien se mettre sur <a> **/
+}
+
+nav ul li:nth-child(3){
+    padding-left: 0.5em;
+    width:22%;
+    font-size: 0.74em;
+}
+
+#couverture {
     background-image: url(images/headerbackground.jpg);
     background-repeat: no-repeat;
     /*height: 478px;*/
@@ -501,4 +877,5 @@ footer span{
     display: block;
     color:#fff;
     padding-left: 35%;
+}
 }
