@@ -220,7 +220,7 @@ nav ul li:nth-child(3){
     /*width: 490px;
     height: 376px;*/
     width: 40%;
-    height: 24em;
+    height: 25em;
     padding-left: 1.1em;
     left:50%;
     margin-top: 0.8em;
@@ -356,7 +356,7 @@ section#gestion {
 /*    width: 980px;
     height: 564px;*/
     width: 90%;
-    height: 38em;
+    height: 35em;
     margin: 0 auto;
     background-color: #fff;
     background-image: url(images/fondstrie.png);
@@ -374,7 +374,7 @@ section#gestion {
 
 section#gestion article.content {
     width: 47%;
-    height: 40em;
+    height: 20em;
 /*    width: 460px;
     height: 564px;*/
     float: left;
@@ -397,12 +397,16 @@ img.left {
     float: left;
     padding-top: 1em;
     padding-right: 1em;
+    width: 6.5em;
+    height: 6.5em;
 }
 
 img.right {
     float: right;
-    height: 150px;
-    width: 160px;
+    width: 8em;
+    height: 8em;
+    /*height: 150px;
+    width: 160px;*/
     padding-left: 1em;
 }
 
@@ -412,8 +416,10 @@ img.corner{
 
 
 div#guitare{
-    width: 200px;
-    height: 200px;
+/*    width: 200px;
+    height: 200px;*/
+    width: 15em;
+    height: 15em;
     background-size: 102%;
     background-image: url(images/mecguitare.png);
     float: left;
