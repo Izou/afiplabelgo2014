@@ -234,7 +234,7 @@ nav ul li:nth-child(3){
     -o-border-bottom-right-radius: 2em;
 }
 
-#couverture {
+#musicbook {
     background-image: url(images/musicbook.jpg);
     background-repeat: no-repeat;
     /*height: 478px;*/
@@ -405,9 +405,9 @@ section#gestion {
     -o-border-bottom-right-radius: 1.2em;
 }
 
-section#gestion {
+section#formulaire {
     clear:both;
-/*    width: 980px;
+    /*width: 980px;
     height: 564px;*/
     width: 75%;
     height: 35em;
@@ -556,4 +556,8 @@ footer span{
     display: block;
     color:#fff;
     padding-left: 35%;
+}
+
+input[type=text]{
+    background-color: blue;
 }
