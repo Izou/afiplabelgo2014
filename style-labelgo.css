@@ -210,7 +210,7 @@ nav ul li:nth-child(3){
     background-position: center;
 }
 
-#cadre {
+#cadre{
     position: absolute;
     background-color: #fff;
     background-image: url(images/fondstrie.png);
@@ -223,6 +223,39 @@ nav ul li:nth-child(3){
     height: 24em;
     padding-left: 1.1em;
     left:50%;
+    margin-top: 0.8em;
+    border-bottom-left-radius: 0.9em;
+    border-bottom-right-radius: 2em;
+    -webkit-border-bottom-left-radius: 0.9em;
+    -webkit-border-bottom-right-radius: 2em;
+    -moz-border-bottom-left-radius: 0.9em;
+    -moz-border-bottom-right-radius: 2em;
+    -o-border-bottom-left-radius: 0.9em;
+    -o-border-bottom-right-radius: 2em;
+}
+
+#couverture {
+    background-image: url(images/musicbook.jpg);
+    background-repeat: no-repeat;
+    /*height: 478px;*/
+    height: 29em;
+    width: 100%;
+    background-position: center;
+}
+
+#question{
+    position: absolute;
+    background-color: #fff;
+    background-image: url(images/fondstrie.png);
+    background-repeat: no-repeat;
+    background-size: 350%;
+    font-family: nexa_lightregular; Verdana, Arial;
+    /*width: 490px;
+    height: 376px;*/
+    width: 25%;
+    height: 24em;
+    padding-left: 1.1em;
+    left:20%;
     margin-top: 0.8em;
     border-bottom-left-radius: 0.9em;
     border-bottom-right-radius: 2em;
@@ -358,6 +391,28 @@ section#gestion {
     width: 75%;
     height: 35em;
     margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/fondstrie.png);
+    background-repeat: repeat-x;
+    background-position: top-right;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    -webkit-border-bottom-left-radius: 1.2em;
+    -webkit-border-bottom-right-radius: 1.2em;
+    -moz-border-bottom-left-radius: 1.2em;
+    -moz-border-bottom-right-radius: 1.2em;
+    -o-border-bottom-left-radius: 1.2em;
+    -o-border-bottom-right-radius: 1.2em;
+}
+
+section#gestion {
+    clear:both;
+/*    width: 980px;
+    height: 564px;*/
+    width: 75%;
+    height: 35em;
+    margin: 0 auto;
+    margin-top: 1em;
     background-color: #fff;
     background-image: url(images/fondstrie.png);
     background-repeat: repeat-x;
