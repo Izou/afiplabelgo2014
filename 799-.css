@@ -127,8 +127,9 @@
 }
 
 body {
-    background-image: url(images/fond10.jpg);
-    background-repeat: repeat;
+/*    background-image: url(images/fond10.jpg);
+    background-repeat: repeat;*/
+    background-color: #eee;
 }
 
 header {
@@ -219,11 +220,11 @@ nav ul li:nth-child(3){
     font-family: nexa_lightregular; Verdana, Arial;
     /*width: 490px;
     height: 376px;*/
-    width: 30%;
+    width: 29%;
     height: 24em;
     padding-left: 1.1em;
-    left:50%;
-    margin-top: 0.8em;
+    left:55%;
+    margin-top: 2%;
     border-bottom-left-radius: 0.9em;
     border-bottom-right-radius: 2em;
     -webkit-border-bottom-left-radius: 0.9em;
@@ -239,12 +240,10 @@ h1 {
     font-size: 2.5em;
     text-transform: uppercase;
     color: #a35b6f;
-    height: 0.2em;
-    margin-top: 0.3em;
 }
 
 p {
-    margin-top: 0.01em;
+    margin-top: 1.5em;
 }
 
 h2 {
@@ -265,7 +264,7 @@ aside {
 
 aside article {
     width: 25%;
-    height :25em;
+    height :22em;
     /*width: 270px;
     height :378px;*/
     background-color: #fff;
@@ -355,7 +354,7 @@ section#gestion {
     clear:both;
 /*    width: 980px;
     height: 564px;*/
-    width: 75%;
+    width: 52%;
     height: 35em;
     margin: 0 auto;
     background-color: #fff;
@@ -373,10 +372,8 @@ section#gestion {
 }
 
 section#gestion article.content {
-    width: 47%;
-    height: 40em;
-/*    width: 460px;
-    height: 564px;*/
+    width: 460px;
+    height: 564px;
     float: left;
     margin-left: 1.5%;
     display: block;
@@ -407,7 +404,7 @@ img.right {
 }
 
 img.corner{
-    margin-top: 15%;
+    margin-top: 25%;
 }    
 
 
@@ -458,12 +455,9 @@ section#gestion article.content ul{
 footer{
     background-color: #313131;
     clear: both;
-    display: fixed;
     margin: 0 auto;
-    /*width: 980px;
-    height: 146px;*/
-    width: 75%;
-    height: 10em;
+    width: 980px;
+    height: 146px;
     border-top-left-radius: 1.2em;
     border-top-right-radius: 1.2em;
     -webkit-border-top-left-radius: 1.2em;
@@ -492,9 +486,10 @@ footer ul li:first-child{
 }
 
 footer span{
+    clear: both;
+    padding-top: 1.2em;
     font-family: 'nexa_lightregular';
     font-size: 0.7em;
     display: block;
     color:#fff;
-    padding-left: 35%;
 }
