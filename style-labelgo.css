@@ -137,11 +137,13 @@ header {
 }
 
 div#logo {
-    width: 290px;
-    height: 100px;
+    /*width : 290px
+    height : 100px*/
+    width: 28%;
+    height: 7em;
     margin-left: 3.8em;
     background-image: url(images/logo.svg);
-    background-size: 90%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -168,13 +170,13 @@ nav ul:active {
 
 nav ul li a:visited {
     text-decoration: none;
-    font-size: 0.9;
+    font-size: 0.9em;
     color: #282828;
 }
 
 nav ul li {
     font-size: 1em;
-    width: 17%;
+    width: 10%;
     display: inline-block; /** Mettre les li sur une ligne **/
     text-align: center;
     margin-top: 2em;
@@ -201,7 +203,8 @@ nav ul li:nth-child(3){
 #couverture {
     background-image: url(images/headerbackground.jpg);
     background-repeat: no-repeat;
-    height: 478px;
+    /*height: 478px;*/
+    height: 29em;
     width: 100%;
     background-position: center;
 }
@@ -213,8 +216,10 @@ nav ul li:nth-child(3){
     background-repeat: no-repeat;
     background-size: 350%;
     font-family: nexa_lightregular; Verdana, Arial;
-    width: 490px;
-    height: 376px;
+    /*width: 490px;
+    height: 376px;*/
+    width: 29%;
+    height: 24em;
     padding-left: 1.1em;
     left:55%;
     margin-top: 2%;
@@ -256,8 +261,10 @@ aside {
 }
 
 aside article {
-    width: 270px;
-    height :378px;
+    width: 25%;
+    height :22em;
+    /*width: 270px;
+    height :378px;*/
     background-color: #fff;
     float: left;
     margin-left: 3.78%;
@@ -279,8 +286,10 @@ aside article {
 }
 
 div#vinyle {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
     background-image: url(pictos/vinyle.svg);
     background-repeat: no-repeat;
     margin:0 auto;
@@ -299,8 +308,10 @@ aside article:first-child {
     }
 
 div#enceinte {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
     background-image: url(pictos/enceinte.svg);
     background-repeat: no-repeat;
     background-size: 290%;
@@ -308,8 +319,10 @@ div#enceinte {
 }
 
 div#facette {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 12em;
+    /*width: 200px;
+    height: 200px;*/
     background-image: url(pictos/facette.png);
     background-repeat: no-repeat;
     margin:0 auto;
@@ -322,8 +335,8 @@ h3 {
     text-transform: uppercase;
     color: #7292b4;
     font-size: 2em;
-    padding-top: 8px;
-    padding-left: 3px;
+    padding-top: 0.4em;
+    padding-left: 0.1em;
 }
 
 h4{
@@ -337,8 +350,10 @@ h4{
 
 section#gestion {
     clear:both;
-    width: 980px;
-    height: 564px;
+/*    width: 980px;
+    height: 564px;*/
+    width: 52%;
+    height: 35em;
     margin: 0 auto;
     background-color: #fff;
     background-image: url(images/fondstrie.png);
@@ -427,7 +442,7 @@ section#gestion article.content p span{
 }
 
 section#gestion article.content ul{
-    list-style-image: url(pictos/puce.png);
+    list-style-image: url(pictos/puce.gif);
     margin-left: 10%;
     margin-top: 5%;
     font-family: 'nexa_lightregular', Verdana, Arial;
@@ -475,5 +490,4 @@ footer span{
     font-size: 0.7em;
     display: block;
     color:#fff;
-    position: center;
 }
