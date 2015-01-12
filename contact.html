@@ -39,50 +39,37 @@
 		<h3>Contactez-nous</h3>
 		<article class"donnees">
 			<!-- http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-formulaires-8 -->
-			<fieldset>
+			
 			<form id="mail" method="post" action"#">
-					<p>
-						<label for="nom">Nom</label> et <label for"prenom">Prenom :</label>
-						<input type="text" name"nom" id"nom" value"Nom" placeholder="Nom" size="15" maxlength="25">
-						<input type="text" name"nom" id"nom" value"Nom" placeholder="Prénom" size="15" maxlength="25">
-					</p>
+				<fieldset>
+						<label for="nom" class="notinline">Nom</label><label for"prenom" class="notinline">et Prenom :</label>
+						<input type="text" name"nom" id"nom" value"Nom" placeholder="Nom"  size="10" maxlength="25">
+						<input type="text" name"nom" id"nom" value"Nom" placeholder="Prénom"  size="10" maxlength="25">
 
-					<p>
 						<label for="adresse">Adresse :</label>
-						<input type="text" name"adresse" id"adresse" value"adresse" placeholder="n° de la voie, nom de rue" size="45" maxlength="70">
-					</p>
+						<input type="text" name"adresse" id"adresse" value"adresse" placeholder="n° de la voie, nom de rue" size="30" maxlength="70">
 
-					<p>
 						<label for="telepone">Téléphone :</label>
-						<input type="text" name"nom" id"nom" value"Nom" placeholder="+" size="8" maxlength="4">
-						<input type="text" name"nom" id"nom" value"Nom" placeholder="Entrez le téléphone" size="15" maxlength="15">
-					</p>
+						<input type="text" name"nom" id"nom" value"Nom" placeholder="+" size="2" maxlength="4">
+						<input type="text" name"nom" id"nom" value"Nom" placeholder="Entrez le téléphone" size="12" maxlength="10">
 
-					<p>
 						<label for="email">Email :</label>
-						<input type="text" name"email" id"email" value"email" placeholder="monmail@fournisseur.fr" size="35" maxlength="70">
-					</p>
+						<input type="text" name"email" id"email" value"email" placeholder="monmail@fournisseur.fr" size="25" maxlength="70">
 
-					<p>
 						<label for="ville">Ville :</label>
-						<input type="text" name"ville" id"ville" value"ville" size="8" maxlength="50">
-					</p>
+						<input type="text" name"ville" id"ville" value"ville" size="15" maxlength="50">
 
-					<p>
 						<label for="codepost">Code Postal</label>
-						<input type="text" name"codepost" id"codepost" value"codepost" size="8" maxlength="8">
-					</p>
+						<input type="text" name"codepost" id"codepost" value"codepost" size="8" maxlength="8"></br>
 
-					<p>
 						<label for="site">Site Internet :</label>
-						<input type="text" name"site" id"site" value"site" placeholder="http://" size="35" maxlength="70">
-					</p>
+						<input type="text" name"site" id"site" value"site" placeholder="http://" size="25" maxlength="70">
 			</form>
 			</fieldset>
 
 			<fieldset>
 				<select>
-					<option selected>Objet de votre e-mail</option>
+					<option selected class="notinline">Objet de votre e-mail</option>
 					<option value="devis">Demande de devis </option>
 					<option value="devis">Demande de devis </option>
 					<option value="devis">Demande de devis </option>
@@ -90,9 +77,9 @@
 				</select>
 
 
-				<textarea name="message" cols="45" rows"70">Entrez votre message</textarea>
+				<textarea name="message" value="Message" cols="45" rows"70">Entrez votre message</textarea>
 
-				<input name="envoyer" type"button"> Envoyer</input>
+				<input name="envoyer" type"button" value="Envoyer"/>
 <!-- <input name"blabla" type"radio">  le type radio est un style à cocher "oui" ou "non", type bipolaire-->
 			</fieldset>
 		</article>
