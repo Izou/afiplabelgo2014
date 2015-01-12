@@ -129,6 +129,7 @@
 body {
     background-image: url(images/fond10.jpg);
     background-repeat: repeat;
+    margin: 0;
 }
 
 header {
@@ -256,8 +257,8 @@ h2 {
 }
 
 aside {
-    width: 980px;
-    height: 378px;
+    width: 80%;
+    height: 25em;
     background : transparent;
     margin: 0 auto;
     font-family: 'nexa_lightregular', Arial;
@@ -464,7 +465,7 @@ section#gestion article.content ul{
 footer{
     background-color: #313131;
     clear: both;
-    display: fixed;
+   /* display: fixed;*/
     margin: 0 auto;
     /*width: 980px;
     height: 146px;*/
@@ -484,7 +485,7 @@ footer ul{
     list-style: none;
     display: inline-block;
     font-family: 'nexa_lightregular', Verdana, Arial;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 7%;
     color: #fff;
     font-size: 0.8em;

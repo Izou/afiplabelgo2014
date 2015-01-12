@@ -290,8 +290,8 @@ h2 {
 }
 
 aside {
-    width: 980px;
-    height: 378px;
+    width: 55%;
+    height: 25em;
     background : transparent;
     margin: 0 auto;
     font-family: 'nexa_lightregular', Arial;
